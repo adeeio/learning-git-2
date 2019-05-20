@@ -1,2 +1,1 @@
-autoprefixer-cli -o style.prefixed.css main.css
-cli -f json *.html
+npx postcss *.css --use autoprefixer -o style.css      autoprefixer usage
