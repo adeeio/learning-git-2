@@ -1,0 +1,2 @@
+autoprefixer-cli -o style.prefixed.css main.css
+cli -f json *.html
