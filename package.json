@@ -4,10 +4,9 @@
   "description": "https://adeeio.github.io/learning-git-2/",
   "main": "index.js",
   "scripts": {
-   "test": "npm run test:html",
-   "test:html": "globstar nu-html-checker *.html",
-
-   "init-project": "npm run install && npm run init:dires && npm run init:files && npm run init:gitignore",
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html",
+    "init-project": "npm install && npm run init:dires && npm run init:files && npm run init:gitignore",
     "init:dires": "mkdirp sass css vendor images js",
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
@@ -27,6 +26,7 @@
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.5",
     "globstar": "^1.0.0",
+    "mkdir": "0.0.2",
     "nu-html-checker": "^0.1.0"
   },
   "dependencies": {
