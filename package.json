@@ -36,6 +36,7 @@
     "onchange": "^6.0.0"
   },
   "dependencies": {
+    "latest-version": "^5.1.0",
     "postcss-cli-simple": "^3.0.0"
   }
 }
