@@ -17,7 +17,7 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": " npm-run-all build -p watch:*",
     "watch:browsersync": "node_modules/.bin/browser-sync",
-    "watch:sassprefixer": "npm-run-all onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css node-sass --output-style expanded --source-map true -o css sass"
+    "watch:sassprefixer": "onchange -d 100 css/style.css onchange node-sass --output-style expanded --source-map true -o css sass -- autoprefixer-cli -o  css/style.css"
   },
   "repository": {
     "type": "git",
