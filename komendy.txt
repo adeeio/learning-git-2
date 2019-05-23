@@ -1,2 +1,2 @@
-npx postcss *.css --use autoprefixer -o style.css      autoprefixer usage
-/node_modules/.bin/nu-html-checker *.html      html validation usage
+npx autoprefixer-cli -o style.prefiexed.css style.css      autoprefixer usage
+npx nu-html-checker *.html      html validation usage
